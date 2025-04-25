@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/tableLayout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="16dp"
+android:gravity="center"
+android:orientation="vertical">
+
+<!-- Advent Calendar Başlık Görseli -->
+<ImageView
+    android:id="@+id/adventCalendarHeader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/adcl"
+
+    android:layout_marginBottom="16dp"
+    android:scaleType="centerInside"/>
+
+<!-- Advent Calendar Gün Butonları -->
+<!-- Satır 1 -->
+<TableRow android:layout_width="match_parent">
+    <ImageButton
+        android:id="@+id/day_1"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day1"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_2"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day2"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_3"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day3"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_4"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day4"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+</TableRow>
+
+<!-- Satır 2 -->
+<TableRow android:layout_width="match_parent">
+    <ImageButton
+        android:id="@+id/day_5"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day5"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_6"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day6"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_7"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day7"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_8"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day8"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+</TableRow>
+
+<!-- Satır 3 -->
+<TableRow android:layout_width="match_parent">
+    <ImageButton
+        android:id="@+id/day_9"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day9"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_10"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day10"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_11"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day11"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_12"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day12"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+</TableRow>
+
+<!-- Satır 4 -->
+<TableRow android:layout_width="match_parent">
+    <ImageButton
+        android:id="@+id/day_13"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day13"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_14"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day14"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_15"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day15"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_16"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day16"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+</TableRow>
+
+<!-- Satır 5 -->
+<TableRow android:layout_width="match_parent">
+    <ImageButton
+        android:id="@+id/day_17"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day17"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_18"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day18"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_19"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day19"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_20"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day20"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+</TableRow>
+
+<!-- Satır 6 (Son satırda 1 buton) -->
+<TableRow android:layout_width="match_parent">
+    <ImageButton
+        android:id="@+id/day_21"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day21"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_22"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day22"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_23"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day23"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:id="@+id/day_24"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day24"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+</TableRow>
+
+<!-- Son Satır 25 -->
+<TableRow android:layout_width="wrap_content">
+    <ImageButton
+        android:id="@+id/day_25"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:src="@drawable/day25"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"/>
+</TableRow>
+
+</TableLayout>

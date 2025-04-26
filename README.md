@@ -29,3 +29,10 @@ Gün gün açılan bir Advent takvimi.
 Yapılacaklar listesi ile görev yönetimi.
 
 Basit ve kullanıcı dostu arayüz tasarımı.
+## 📷 Ekran Görüntüleri
+
+### Ana Sayfa
+![Ana Sayfa](screenshots/mainscreen.png)
+
+### Yapılacaklar Listesi
+![Yapılacaklar Listesi](screenshots/todoscreen.png)
